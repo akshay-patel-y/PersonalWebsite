@@ -16,9 +16,6 @@ function App() {
             <li>
               <Link to="/experience">Experience</Link>
             </li>
-            <li>
-              <Link to="/agent-test">Agent Test</Link>
-            </li>
           </ul>
         </nav>
 
