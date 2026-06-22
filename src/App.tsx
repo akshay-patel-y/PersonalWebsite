@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Home from "./pages/Home";
+import AgentTest from "./pages/AgentTest";
 import ExperienceList from "./components/ExperienceList";
 
 function App() {
@@ -15,6 +16,9 @@ function App() {
             <li>
               <Link to="/experience">Experience</Link>
             </li>
+            <li>
+              <Link to="/agent-test">Agent Test</Link>
+            </li>
           </ul>
         </nav>
 
@@ -22,6 +26,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/experience" element={<ExperienceList />} />
+            <Route path="/agent-test" element={<AgentTest />} />
           </Routes>
         </div>
       </div>
