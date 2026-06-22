@@ -6,6 +6,7 @@ const AgentTest: React.FC = () => {
     <section className="profile-section">
       <h1>Agent Test</h1>
       <p>This page was created by Jarvis.</p>
+      <p>Jarvis was here.</p>
     </section>
   );
 };
